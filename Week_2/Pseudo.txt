@@ -1,0 +1,61 @@
+-------------------------------
+///// 2nd LAW NEWTON   ////////
+-------------------------------
+SET force
+SET mass to 600
+SET acceleration to 2
+CALCULATE mass * acceleration = force
+PRINT force 
+END
+
+------------------------------
+///// Gregorian Calendar /////
+------------------------------
+SET year
+ELSE IF year % 4 is 0 && year % 100 is > 0 
+THEN PRINT "Tahun Kabisat"
+ELSE IF year % 4 is 0 &&
+THEN PRINT "Bukan Tahun Kabisat"
+ELSE PRINT "Bukan Tahun Kabisat"
+END
+
+1. Masukkan "Tahun" yang ingin diketahui
+2. Bila "Tahun" habis dibagi 4, habis di bagi 100 dan habis di bagi 400
+3. Maka tampilkan bahwa "Tahun" tersebut Kabisat
+4. Bila "Tahun" habis di bagi 4 dan tidak habis di bagi 100
+5. Maka tampilkan bahwa "Tahun" tersebut Bukan Kabisat
+
+
+-----------------------
+///// Laundry Day /////
+-----------------------
+
+SET pakaian
+WHILE pakaian LESS THAN 20
+INCREMENT pakaian
+DISPLAY "pakaian penuh, silahkan mencuci"
+ENDWHILE
+DISPLAY "Mulai Mencuci"
+
+1. Masukkan "pakaian" kedalam mesin cuci
+2. Bila "pakaian" kurang dari 20, maka tambahkan "pakaian"
+3. Bila sudah sampai 20, maka mesin akan mulai mencuci
+
+------------------------
+\\\\\\ Check Kuku //////
+------------------------
+
+SET jumlahmurid IS 40
+SET cekmurid
+SET kukumu 
+FOR cekmurid LESS THAN jumlahmurid
+IF cekmurid IS kukumu
+DISPLAY "Kuku Murid Panjang, dihukum potong kuku ditempat"
+ELSE
+DISPLAY "Terimakasih telah potong kuku"
+
+
+1. Guru mengecek berapa "jumlahmurid". Guru mendapati bahwa "jumlahmurid" total ialah 40 Murid
+2. Guru lalu masuk ke kelas untuk "cekmurid" bilamana ada yang "kukumu"
+3. Bila terdapat "kukumu" maka Guru akan menghukum Murid-Murid tersebut
+4. Namun bilamana tidak terdapat "kukumu" maka Guru memuji Murid tersebut
